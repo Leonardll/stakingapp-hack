@@ -1,6 +1,6 @@
 module.exports = async ({ getNamedAccounts, deployments}) => {
     const { deploy } = deployments
-    const{ deployer }= await getNamedAccounts()
+    const { deployer } = await getNamedAccounts()
 
     const rewardToken = await deploy("RewardToken", {
         from: deployer,
