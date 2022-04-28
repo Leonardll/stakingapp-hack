@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/leo/projects/stakingapp-hack/contracts/Staking.sol": {
-      "lastModificationDate": 1651084482634,
-      "contentHash": "66682c446172fda64fce49a9e04983bd",
+      "lastModificationDate": 1651140486904,
+      "contentHash": "f6757118164ca7a9c1389e4d45346d57",
       "sourceName": "contracts/Staking.sol",
       "solcConfig": {
         "version": "0.8.7",
@@ -42,7 +42,7 @@
         "^0.8.7"
       ],
       "artifacts": [
-        "Stacking"
+        "Staking"
       ]
     },
     "/home/leo/projects/stakingapp-hack/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {

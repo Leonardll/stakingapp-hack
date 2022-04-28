@@ -1,12 +1,12 @@
-// SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity ^0.8.7 ;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 error Stacking_TransferFailed();
 error Stacking_NeedsMoreThanZero();
 
-contract Stacking {
+contract Staking {
         IERC20 public s_stakingToken;
         IERC20 public s_rewardToken;
         
